@@ -1,0 +1,41 @@
+/* Aplicando variáveis a raiz do documento */
+:root {
+  --title-color: #322153;
+  --primary-color: #34cd79
+}
+/* Seleciona todos */
+* {
+  margin: 0;
+  padding: 0;
+  
+  /* O tamanho da caixa também é o preenchimento */
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #f0f0f5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none; /* tirando o sublinhado */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+  color: var(--title-color);
+}
+/* BOX MODEL 
+
+Modelo de caixa
+Toda caixa tem
+largura, altura, espaçamentos, preenchimento,
+bordas, cor, fundo, maneira que é vista pelo
+posicionamento, alinhamentos
+*/
+
+
